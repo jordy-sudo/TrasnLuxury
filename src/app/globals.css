@@ -25,3 +25,15 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.text-gradient-1 {
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, #FFFFFF, #FFFFFF);
+}
+
+.text-gradient-2 {
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, #FFFFFF, #EF5304);
+}
